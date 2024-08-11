@@ -1,0 +1,81 @@
+.data-anonymization{
+    height: 50%;
+     
+    }
+    .left-side {
+         
+        text-align: left;
+        width:30%;
+        padding: 15px;
+        margin-left: 40px;
+        margin-right: 20px;
+      }
+      button {
+         
+        padding: 12px 22px;
+        font-size: 15px;
+        cursor: pointer;
+        background-color:#000000;
+        color: #ffffff;
+        border:#080808;
+        border-radius: 5px;
+        transition: background-color 0.3s, transform 0.2s;
+        align-self: center;
+      }
+    button:disabled{
+      color:#000000;
+      background-color:#cccccc83;
+      cursor: not-allowed;
+      }
+      .stepper {
+         
+        text-align: left;
+        background-color: #E1F8FF;
+        margin-top: 8px;
+       margin-left: 2%;
+       margin-right: 2%;
+        height: 55px;
+        width: 96%;
+      }
+        .top-side{
+          display: flex;
+          flex:5;
+          margin-top: 10px;
+          font-size: large;
+          font-family: "Sun Life Sans", serif;
+        }
+       
+        .left-side select,
+        .left-side input {
+          width: 40%;
+          padding: 12px;
+          margin-bottom: 15px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-sizing: border-box;
+          height: 45px;
+       
+        }
+       
+        .separator {
+          width: 1px;
+          background-color: #ccc;
+          margin: 0 20px;
+        }
+       
+        .left-side label{
+     
+     
+          height: 142px;
+        }
+        .right-side{
+            width: 70%;
+            height: 480px;
+            background-color: #ffffff;
+            color: #000000;
+            align-items: right;
+            margin-right: 41px;
+            overflow-y: auto;
+            overflow-x: auto;
+                   
+          }

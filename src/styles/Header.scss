@@ -1,0 +1,43 @@
+/* Header.scss */
+ 
+.custom-header {
+    background-color: #242525;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+   
+  .logo-container {
+    margin-left: 1px;
+    display: flex;
+    align-items:normal;
+  }
+   
+  .logo-container a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+   
+  .desktop-logo {
+    height: 50px;
+    width: auto;
+  }
+   
+  nav {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+   
+  nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+   
+  nav a:hover {
+    text-decoration: underline;
+  }
